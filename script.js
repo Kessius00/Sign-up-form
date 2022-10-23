@@ -12,8 +12,8 @@ function equalValidation(psswrd, cnfrmPsswrd){
     return psswrd == cnfrmPsswrd;
 };
 
-function changeValidity(same){
-    if (same){
+function changeValidity(samePassword){
+    if (samePassword){
         password.style.borderColor = 'greenyellow';
         passwordConfirm.style.borderColor = 'greenyellow';
         return
